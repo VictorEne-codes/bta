@@ -860,6 +860,10 @@ video {
   padding-top: 50px;
 }
 
+.text-left {
+  text-align: left;
+}
+
 .text-center {
   text-align: center;
 }
@@ -994,6 +998,10 @@ video {
     height: 200px;
   }
 
+  .md\:h-\[300px\] {
+    height: 300px;
+  }
+
   .md\:w-\[100px\] {
     width: 100px;
   }
@@ -1016,6 +1024,10 @@ video {
 
   .md\:w-\[550px\] {
     width: 550px;
+  }
+
+  .md\:w-\[300px\] {
+    width: 300px;
   }
 
   .md\:flex-row {
