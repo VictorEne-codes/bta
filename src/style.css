@@ -599,6 +599,10 @@ video {
   height: 100px;
 }
 
+.h-\[200px\] {
+  height: 200px;
+}
+
 .h-\[300px\] {
   height: 300px;
 }
@@ -627,6 +631,10 @@ video {
   width: 100px;
 }
 
+.w-\[200px\] {
+  width: 200px;
+}
+
 .w-\[300px\] {
   width: 300px;
 }
@@ -643,20 +651,12 @@ video {
   width: 450px;
 }
 
-.w-\[550px\] {
-  width: 550px;
-}
-
 .w-\[70px\] {
   width: 70px;
 }
 
 .w-\[75\%\] {
   width: 75%;
-}
-
-.w-\[\] {
-  width: ;
 }
 
 .w-full {
@@ -668,8 +668,17 @@ video {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
+.translate-y-10 {
+  --tw-translate-y: 2.5rem;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
 .transform {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.animate-\[slideIn_1\.5s_ease-out_forwards\] {
+  animation: slideIn 1.5s ease-out forwards;
 }
 
 .list-disc {
@@ -704,8 +713,16 @@ video {
   gap: 5rem;
 }
 
+.gap-3 {
+  gap: 0.75rem;
+}
+
 .gap-4 {
   gap: 1rem;
+}
+
+.gap-5 {
+  gap: 1.25rem;
 }
 
 .gap-6 {
@@ -720,6 +737,10 @@ video {
   gap: 20px;
 }
 
+.gap-\[30px\] {
+  gap: 30px;
+}
+
 .gap-\[40px\] {
   gap: 40px;
 }
@@ -728,16 +749,8 @@ video {
   gap: 50px;
 }
 
-.gap-\[\] {
-  gap: ;
-}
-
-.gap-0 {
-  gap: 0px;
-}
-
-.gap-\[30px\] {
-  gap: 30px;
+.gap-\[60px\] {
+  gap: 60px;
 }
 
 .rounded-2xl {
@@ -814,6 +827,11 @@ video {
   padding-right: 50px;
 }
 
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
 .py-\[40px\] {
   padding-top: 40px;
   padding-bottom: 40px;
@@ -844,6 +862,10 @@ video {
   padding-left: 20px;
 }
 
+.pl-\[40px\] {
+  padding-left: 40px;
+}
+
 .pl-\[50px\] {
   padding-left: 50px;
 }
@@ -858,6 +880,10 @@ video {
 
 .pt-\[50px\] {
   padding-top: 50px;
+}
+
+.pl-\[30px\] {
+  padding-left: 30px;
 }
 
 .text-left {
@@ -880,12 +906,21 @@ video {
   font-family: Satisfy, sans-serif;
 }
 
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
 .text-\[12px\] {
   font-size: 12px;
 }
 
 .text-\[15px\] {
   font-size: 15px;
+}
+
+.text-\[16px\] {
+  font-size: 16px;
 }
 
 .text-\[18px\] {
@@ -916,8 +951,17 @@ video {
   text-transform: capitalize;
 }
 
+.leading-8 {
+  line-height: 2rem;
+}
+
 .leading-\[20px\] {
   line-height: 20px;
+}
+
+.text-black {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity, 1));
 }
 
 .text-orange-500 {
@@ -930,16 +974,16 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
 }
 
-.text-\[\] {
-  color: ;
-}
-
 .underline {
   text-decoration-line: underline;
 }
 
 .no-underline {
   text-decoration-line: none;
+}
+
+.opacity-0 {
+  opacity: 0;
 }
 
 .outline-none {
@@ -1002,6 +1046,10 @@ video {
     height: 300px;
   }
 
+  .md\:h-\[350px\] {
+    height: 350px;
+  }
+
   .md\:w-\[100px\] {
     width: 100px;
   }
@@ -1014,20 +1062,24 @@ video {
     width: 200px;
   }
 
-  .md\:w-\[500px\] {
-    width: 500px;
+  .md\:w-\[300px\] {
+    width: 300px;
   }
 
-  .md\:w-full {
-    width: 100%;
+  .md\:w-\[350px\] {
+    width: 350px;
+  }
+
+  .md\:w-\[500px\] {
+    width: 500px;
   }
 
   .md\:w-\[550px\] {
     width: 550px;
   }
 
-  .md\:w-\[300px\] {
-    width: 300px;
+  .md\:w-full {
+    width: 100%;
   }
 
   .md\:flex-row {
@@ -1036,6 +1088,14 @@ video {
 
   .md\:justify-between {
     justify-content: space-between;
+  }
+
+  .md\:gap-0 {
+    gap: 0px;
+  }
+
+  .md\:gap-\[100px\] {
+    gap: 100px;
   }
 
   .md\:gap-\[20px\] {
@@ -1048,10 +1108,6 @@ video {
 
   .md\:gap-\[80px\] {
     gap: 80px;
-  }
-
-  .md\:gap-0 {
-    gap: 0px;
   }
 
   .md\:px-\[100px\] {
@@ -1070,6 +1126,10 @@ video {
 
   .md\:text-\[14px\] {
     font-size: 14px;
+  }
+
+  .md\:text-\[22px\] {
+    font-size: 22px;
   }
 
   .md\:text-\[24px\] {
