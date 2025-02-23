@@ -26,7 +26,7 @@
             </div>
             <nav id="menu" class="hidden lg:block">
                 <ul class="flex flex-col lg:flex-row justify-center items-center gap-4 lg:gap-[50px]">
-                    <li><a class="text-white font-bold hover:underline hover:text-orange-500" href="home.html">HOME</a>
+                    <li><a class="text-orange-500 font-bold hover:underline hover:text-orange-500" href="index.html">HOME</a>
                     </li>
                     <li><a class="text-white font-bold hover:underline hover:text-orange-500"
                             href="about.html">ABOUT</a></li>
@@ -37,8 +37,8 @@
                             href="testimony.html">TESTIMONIES</a></li>
                 </ul>
             </nav>
-            <button class="hidden lg:block bg-orange-500 p-3 rounded-3xl">
-                <a class="font-bold capitalize text-white hover:underline hover:text-black" href="booking.html">Book an
+            <button class="hidden lg:block bg-orange-500 p-3 rounded-3xl hover:bg-white">
+                <a class="font-bold capitalize text-black" href="booking.html">Book an
                     appointment</a>
             </button>
 
@@ -62,8 +62,8 @@
                 </li>
             </ul>
             <div class="mt-10 flex justify-center">
-                <button class="bg-orange-500 p-3 rounded-3xl">
-                    <a class="font-bold capitalize text-white hover:underline hover:text-black" href="booking.html">Book
+                <button class="bg-orange-500 p-3 rounded-3xl hover:bg-white">
+                    <a class="font-bold capitalize text-black" href="booking.html">Book
                         an
                         appointment</a>
                 </button>
@@ -130,6 +130,8 @@
         <div
             class="lg:px-[100px] px-[40px] py-[40px] flex justify-center items-center flex-col border-orange-500 border-b-8 border-solid">
             <h2 class="bg-orange-500 p-3 rounded-3xl font-bold mb-7">MESSAGES</h2>
+            <p class="font-bold text-white text-[16px] text-center md:text-[24px] py-4">EXTENDING LIBERALITY AND CHARITY TO EVERYONE IN NEED AS
+                CHRIST COMMANDS</p>
             <div class="flex justify-between items-center gap-[60px] flex-col md:flex-row">
                 <div class="flex justify-between items-center flex-col">
                     <img src="../images/bta4.jpg" class="rounded-3xl w-full" alt="">
@@ -171,7 +173,39 @@
                         class="fa-solid fa-arrow-right text-3xl"></i></button>
             </div>
         </div>
-
+        <div class="lg:px-[100px] px-[40px] py-[40px] show testimonials flex justify-center items-center flex-col border-orange-500 border-b-8 border-solid relative">
+            <h2 class="bg-orange-500 p-3 rounded-3xl font-bold mb-7">TESTIMONIES</h2>
+            <p class="font-bold text-white text-[16px] text-center md:text-[24px] py-4">EXTENDING LIBERALITY AND CHARITY TO EVERYONE IN NEED AS
+                CHRIST COMMANDS</p>
+            <div class="review review1 block md:w-[700px] w-[300px] md:text-[24px] text-[18px]">
+                <p class="text-white text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad cumque culpa assumenda dignissimos eum cupiditate fugit, repudiandae sequi, quia magni ratione illo architecto quo repellendus minima a. Quia, sunt nulla!</p>
+                <p class="text-white text-end pt-4 md:text-[24px] text-[18px]">~ Mrs Janet USA.</p>
+            </div>
+            <div class="review hidden md:w-[700px] w-[300px] md:text-[24px] text-[18px]">
+                <p class="text-white text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad cumque culpa assumenda dignissimos eum cupiditate fugit, repudiandae sequi, quia magni ratione illo architecto quo repellendus minima a. Quia, sunt nulla!</p>
+                <p class="text-white text-end pt-4 md:text-[24px] text-[18px]">~ Mrs Janet USA.</p>
+            </div>
+            <div class="review hidden md:w-[700px] w-[300px] md:text-[24px] text-[18px]">
+                <p class="text-white text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad cumque culpa assumenda dignissimos eum cupiditate fugit, repudiandae sequi, quia magni ratione illo architecto quo repellendus minima a. Quia, sunt nulla!</p>
+                <p class="text-white text-end pt-4 md:text-[24px] text-[18px]">~ Mrs Janet USA.</p>
+            </div>
+            <div class="review hidden md:w-[700px] w-[300px] md:text-[24px] text-[18px]">
+                <p class="text-white text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad cubr
+                    mque culpa assumenda dignissimos eum cupiditate fugit, repudiandae sequi, quia magni ratione illo architecto quo repellendus minima a. Quia, sunt nulla!</p>
+                    <p class="text-white text-end pt-4 md:text-[24px] text-[18px]">~ Mrs Janet USA.</p>
+                </div>
+            <i class="fa-solid fa-chevron-left text-white md:absolute top-[220px] left-[200px] text-[30px] hidden" id="prevBtn1"></i>
+            <i class="fa-solid fa-chevron-right text-white hidden md:block text-[30px] md:absolute top-[220px] left-[1050px]" id="nextBtn1"></i>
+        </div>
+        <div class="lg:px-[100px] px-[40px] py-[40px] show testimonials flex justify-center items-center flex-col border-orange-500 border-b-8 border-solid relative">
+            <h2 class="bg-orange-500 p-3 rounded-3xl font-bold mb-7">TESTIMONIES</h2>
+            <p class="font-bold text-white text-[16px] text-center md:text-[24px] py-4">EXTENDING LIBERALITY AND CHARITY TO EVERYONE IN NEED AS
+                CHRIST COMMANDS</p>
+                <textarea id="inv_message" type="text" placeholder="Your Prayer Request"
+                        class="border-none outline-none w-[300px] md:w-[700px] h-[60px] rounded-lg p-[20px] placeholder:font-satisfy my-[10px]">
+                </textarea>
+                <button>Submit</button>
+        </div>
         <div
             class="flex justify-between flex-col md:flex-row items-start gap-[10px] md:gap-[80px] px-[40px] md:px-[100px] py-[50px]">
             <div class="md:w-[200px] w-[300px]">
@@ -184,11 +218,10 @@
                 <h2 class="text-orange-500 text-[24px] font-bold underline">Quick Links</h2>
                 <a class="text-white no-underline hover:underline mt-[20px]" href="index.html">Home</a>
                 <a class="text-white no-underline hover:underline" href="about.html">About</a>
+                <a class="text-white no-underline hover:underline" href="liberality.html">Liberality</a>
                 <a class="text-white no-underline hover:underline" href="testimony.html">Testimonies</a>
                 <a class="text-white no-underline hover:underline" href="gallery.html">Gallery</a>
                 <a class="text-white no-underline hover:underline" href="booking.html">Bookings</a>
-                <a class="text-white no-underline hover:underline" href="events.html">Upcoming Events</a>
-                <a class="text-white no-underline hover:underline" href="#">Mummy Aremu</a>
             </div>
             <div class="flex flex-col">
                 <h2 class="text-orange-500 text-[24px] font-bold underline">Reach Us</h2>
@@ -196,7 +229,7 @@
                 <p class="text-white">Phone: +234 (812) 234 5432</p>
             </div>
         </div>
-        <div class="flex justify-center items-center text-orange-500 font-satisfy">All rights reserved ‘Thomas Aremu’ @
+        <div class="flex justify-center items-center text-orange-500 font-satisfy m-10">All rights reserved ‘Thomas Aremu’ @
             2024</div>
     </div>
 
@@ -216,6 +249,26 @@
         menuClose.addEventListener('click', () => {
             mobileMenu.classList.add('translate-x-full');
         });
+        //reviews animations
+  let currentReview = 0;
+  let reviews = document.querySelectorAll(".review");
+  let prevBtn1 = document.getElementById("prevBtn1");
+  let nextBtn1 = document.getElementById("nextBtn1");
+  function nextReview(){
+    let nextReview = (currentReview + 1)%reviews.length;
+    reviews[currentReview].style.display = "none";
+    reviews[nextReview].style.display = "block";
+    currentReview = nextReview;
+
+  }
+  nextBtn1.addEventListener("click", nextReview)
+  prevBtn1.addEventListener("click", function(){
+    let prevReview = currentReview == 0?reviews.length-1:currentReview-1;
+    reviews[currentReview].style.display = "none";
+    reviews[prevReview].style.display = "block";
+    currentReview = prevReview;
+  })
+  setInterval(nextReview, 3000);
     </script>
 </body>
 
